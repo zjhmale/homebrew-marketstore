@@ -5,7 +5,7 @@ class Marketstore < Formula
   sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   version "0.0.1"
 
-  # 👇 Add this line to support --HEAD
+  # ✅ THIS is required for --HEAD
   head "https://github.com/zjhmale/homebrew-marketstore.git", branch: "main"
 
   def install
